@@ -3,7 +3,7 @@
   "dockerComposeFile": "docker-compose.yaml",
   "service" : "hugo",
   "workspaceFolder": "/workspace",
-  "forwardPorts": ["hugo:1313"],
+  "forwardPorts": [1313],
   "settings": {
     "terminal.integrated.profiles.linux":  {
       "bash (login)": {
