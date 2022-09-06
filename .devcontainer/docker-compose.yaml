@@ -6,6 +6,5 @@ services:
       LANG: ja_JP.utf8
     volumes:
       - $HOME/.ssh:/root/.ssh
-      - $HOME/.gitconfig:/root/.gitconfig
       - ..:/workspace
     tty: true
