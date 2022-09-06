@@ -1,0 +1,12 @@
+name: Hello World
+
+on:
+  - workflow_dispatch
+  - push:
+      branch: [ensyu-test]
+
+jobs:
+  sey_hello:
+    runs_on: ubuntu-latest
+    steps:
+      - run: echo "Hello World!"
