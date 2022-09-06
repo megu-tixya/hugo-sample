@@ -1,8 +1,8 @@
 name: Hello World
 
 on:
-  - workflow_dispatch
-  - push:
+  workflow_dispatch:
+  push:
       branch: [ensyu-test]
 
 jobs:
