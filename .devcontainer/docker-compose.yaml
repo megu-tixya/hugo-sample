@@ -7,4 +7,5 @@ services:
     volumes:
       - $HOME/.ssh:/root/.ssh
       - ..:/workspace
+      - $HOME/.gitconfig:/root/.gitconfig
     tty: true
